@@ -24,6 +24,8 @@
 
 10. Display in grid
 
+11. Angular flow of the https://gale.udemy.com/course/angular-tutorial/learn/lecture/11575968#overview
+
 
 
 
