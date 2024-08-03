@@ -1,5 +1,41 @@
-# CustomerApplication
+# Angular Application Flow
+----------------------------
 
+1. Angular needs to know which one is the start up file , which is main.ts
+2. In main.ts we need to say which one is startup module, which is defined in platformBrowserDynamic().bootstrapModule(AppModule)
+3. Some one has to go and invoke main.ts, i.e done by index.html
+
+
+4. Using the bootstrap in AppModule loads the AppComponent - this line does in AppModule does it bootstrap: [AppComponent]
+
+5. index.html -> main.ts -> Appmodule -> AppComponent -> appComponent.html loads with this line in AppComponent templateUrl: './app.component.html'
+
+6. index.html -> main.ts -> Appmodule -> AppComponent -> appComponent.html -> all the bindings work from there on
+
+7. directive tip 
+ () send data from ui to object
+ [] receives data from ui to object
+
+ if we use both then it is 2 -way binding from ui to object and vice versa
+
+8. customizing the app name and few other things but we need to update in multiple places
+
+9. add button and click event 
+
+10. Display in grid
+
+
+
+
+
+
+
+
+
+
+
+
+# CustomerApplication
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
 
 ## Development server
