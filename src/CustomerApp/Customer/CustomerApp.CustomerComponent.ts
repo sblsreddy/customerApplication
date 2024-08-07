@@ -5,7 +5,7 @@ import { Customer } from './CustomerApp.model';
   
   templateUrl: './CustomerApp.CustomerView.html'
 })
-export class CustomerAppComponent {
+export class CustomerComponent {
   title = 'customerApplication';
 
   // single model customer element
